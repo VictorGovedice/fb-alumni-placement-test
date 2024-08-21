@@ -315,8 +315,13 @@
 <script>(function(a,c,e,f,d,b){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)};a._hjSettings={hjid:1366877,hjsv:6};d=c.getElementsByTagName("head")[0];b=c.createElement("script");b.async=1;b.src=e+a._hjSettings.hjid+f+a._hjSettings.hjsv;d.appendChild(b)})(window,document,"https://static.hotjar.com/c/hotjar-",".js?sv\x3d");</script></div>
 <script type="text/javascript" id="">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date);gtag("config","DC-8670912");</script>
 
-<iframe height="0" width="0" src="activityi%3Bsrc%3D867091.0%3Buaw%3D0" style="display: none; visibility: hidden;"></iframe><script type="text/javascript" id="">gtag("event","conversion",{allow_custom_scripts:!0,u1:"\/teste",send_to:"DC-8670912/invmedia/alumn00-+standard"});</script>
-<noscript>
+<!--Baixa arquivo desconhecido-->
+
+<!--<iframe height="0" width="0" src="activityi%3Bsrc%3D867091.0%3Buaw%3D0" style="display: none; visibility: hidden;"></iframe><script type="text/javascript" id="">gtag("event","conversion",{allow_custom_scripts:!0,u1:"\/teste",send_to:"DC-8670912/invmedia/alumn00-+standard"});</script>
+<noscript>-->
+
+<!--Baixa arquivo desconhecido-->
+
 <img src="https://ad.doubleclick.net/ddm/activity/src=8670912;type=invmedia;cat=alumn00-;u1=/teste;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?" width="1" height="1" alt="">
 </noscript>
 
@@ -329,29 +334,33 @@
 </noscript>
 </body>
 
+<style>
+    #gpc-lgpd{
+        display: none;
+    }
+</style>
+
+
+
 <script>
 document.addEventListener('click', function(e) {
     let target = e.target;
 
-    // Verifica se o alvo é um link de download
     if (target.tagName === 'A' && target.hasAttribute('download')) {
         e.preventDefault();
         console.log('Downloads estão bloqueados nesta página.');
     }
 
-    // Bloqueia qualquer tentativa de baixar ao clicar com o botão direito
     if (target.tagName === 'A' && (e.which === 2 || e.which === 3)) {
         e.preventDefault();
         console.log('Downloads estão bloqueados nesta página.');
     }
 });
 
-// Bloqueia o menu de contexto (botão direito)
 document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
 });
 
-// Bloqueia tentativas de download através de teclas de atalho
 document.addEventListener('keydown', function(e) {
     if ((e.ctrlKey || e.metaKey) && (e.key === 's' || e.key === 'S')) {
         e.preventDefault();
